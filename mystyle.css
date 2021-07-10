@@ -1,0 +1,86 @@
+* {
+    font-family: sans-serif;
+}
+
+.right-hand-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-hand-side p {
+    font-size: 18px;
+}
+
+#input-box {
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.page-structure {
+    height: 100vh;
+    display:flex;
+    justify-content: space-around;
+}
+.image-container{
+    display: flex;
+    align-items: center;
+}
+.expiry-date {
+    display:flex;
+    align-items: center;
+}
+
+.expiry-date p{
+    margin: 0px;
+    margin-left: 5px;
+}
+
+#date-input {
+    max-width: 130px;
+    font-size: 18px
+}
+
+.three-numbers {
+    margin-top: 20px;
+}
+
+.three-numbers p {
+    margin: 0;
+}
+
+.three-numbers input {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 130px;
+}
+
+#submit-button {
+    justify-self: flex-end;
+    border-style: solid;
+    border-color: rgb(173, 173, 173);
+    max-width: 400px;
+    min-height: 40px;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    text-decoration: none;
+    margin-right: 8px;
+
+}
+#submit-button:hover {
+    border-color: grey;
+}
+
+#submit-button p {
+    color: black;
+}
+
+img {
+    max-height: 80vh;
+    display: block;
+}
+
+body {
+    margin: 0px;
+}
