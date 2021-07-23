@@ -21,6 +21,7 @@
     height: 100vh;
     display:flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .image-container{
     display: flex;
